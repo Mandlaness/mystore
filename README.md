@@ -33,9 +33,9 @@ In case you are still facing problems, you are probably logged in under a differ
 
 Given that you already have a MySQL user with the correct permissions, then create an empty database to work with. If you want to, you can also use an existing database and pick a table prefix during the installation process, but that’s not something a lot of people do.
 
-``` echo "CREATE DATABASE magento2" | mysql -u[mysqluser] -p ```
+``` echo "CREATE DATABASE my_dbname" | mysql -u[mysqluser] -p ```
 
-**5. Install Magento 2
+**5. Install Magento 2**
 
 That’s about it! You can now follow the installation wizard or use the command line.
 
